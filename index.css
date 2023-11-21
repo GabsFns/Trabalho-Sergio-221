@@ -1,0 +1,146 @@
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Regular.ttf);
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+}
+.navegacao-menu{
+    display: flex;
+    margin: 10px;
+    font-size: 22px;
+    font-family: Poppins;
+    align-items: center;
+    
+}
+.navegacao-menu p, button{
+    margin: 19px;
+}
+.navegacao-menu button{
+    padding: 14px;
+    width: 190px;
+    border: none;
+    color: white;
+    background-color: rgb(102, 48, 48);
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+article{
+    margin: 120px 0px 0px 0px;
+}
+section h1{
+    font-family: Roboto;
+    font-size: 36px;
+    width: 450px;
+}
+article{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.caixa-1, .caixa-2{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 20px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: Roboto;
+    width: 300px;
+    transition: all 0.6s ease-in-out;
+}
+.caixa-1:hover{
+    transform: translateX(50px);
+    background-color: rgba(37, 14, 14, 0.712);
+    color: white;
+    box-shadow: 2px 2px 10px rgb(126, 126, 126);
+}
+.caixa-2:hover{
+    transform: translateX(50px);
+    background-color: rgba(37, 14, 14, 0.712);
+    color: white;
+    box-shadow: 2px 2px 10px rgb(126, 126, 126);
+}
+#img-principal{
+    border-radius: 60px 110px 60px 110px;
+    transition: opacity 0.5s ease-in-out
+}
+#linha1, #linha2{
+    padding: 4px;
+    background-color: rgb(70, 59, 59);
+    border: none;
+    border-radius: 20px;
+
+}
+#linha2{
+    width: 450px;
+    animation: levitateAnimation 0.5s infinite alternate;
+}
+#linha1{
+    background-color: rgb(97, 91, 80);
+    animation: levitateAnimation 0.9s infinite alternate;
+}
+
+
+@keyframes levitateAnimation {
+    to {
+      transform: translateX(-15px);
+    }
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .dropbtn {
+    background-color: #ffffff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

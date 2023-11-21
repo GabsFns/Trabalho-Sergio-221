@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vagas.css">
+    <script src="animacao.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="" alt="">
+        <nav class="navegacao-menu">
+        <a href="index.html"><p>Home</p></a>
+        <p>Teams</p>
+        <p>About</p>
+        <div class="dropdown">
+        <button class="dropbtn">Bem vindo, Entre ou se Cadastre</button>
+        <div class="dropdown-content">
+            <a href="login.html">Entrar</a>
+            <a href="cadastro.html">Cadastrar</a>
+        </div>
+          </div>
+    </nav>
+    </header>
+    <main>
+        <div id="title-principal">
+        <h1>Modalidas esportivas</h1><p> escolha qual modalidade você queira concorrer</p>
+    </div>
+        <div class="main">
+            <ul class="cards">
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="https://cpb.org.br/wp-content/uploads/2023/06/1918057f01034d95a06a3f51829c6d3e.jpg"
+                                alt="mixed vegetable salad in a mason jar." />
+                          
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Atletismo</h2>
+                            <div class="card_text">
+                                <p>A ART Grand Prix é uma renomada equipe de corrida que compete em diversas categorias
+                                     do automobilismo, incluindo a Fórmula 2, Fórmula 3 e outras séries de prestígio.
+                                      Fundada em 2005 por Frederic Vasseur e Nicolas Todt, a equipe tem uma história
+                                       de sucesso e é conhecida por seu compromisso com o desenvolvimento de jovens
+                                        talentos do automobilismo. A ART Grand Prix é amplamente considerada como uma
+                                         das equipes de referência na formação de futuros campeões.
+                                </p>
+                                <hr />
+                                <p>A equipe ART Grand Prix é reconhecida por sua abordagem profissional 
+                                    e investimento no desenvolvimento de carros de corrida de alto desempenho. 
+                                    Eles oferecem um ambiente de alto nível para pilotos talentosos, 
+                                    proporcionando-lhes as melhores oportunidades para progredir em suas 
+                                    carreiras no automobilismo. Além disso, a equipe também tem uma equipe
+                                    de funcionários altamente qualificados e dedicados que desempenham papéis
+                                     essenciais no sucesso da equipe.
+    
+                                    Quando a equipe ART Grand Prix disponibiliza vagas para corredores, 
+                                    isso geralmente acontece por meio de programas de desenvolvimento de 
+                                    jovens pilotos, onde talentos em ascensão recebem a oportunidade de 
+                                    competir em campeonatos de alto nível, como a Fórmula 2 e a Fórmula 3. 
+                                    Essas vagas representam uma chance única para os pilotos demonstrarem 
+                                    seu potencial e trabalharem em direção ao sonho de se tornarem pilotos de Fórmula 1.
+                                </p>
+                                <hr />
+                                <p>Em relação aos funcionários da ART Grand Prix, a equipe emprega uma ampla variedade de 
+                                    profissionais especializados, incluindo engenheiros de pista, mecânicos, estrategistas 
+                                    de corrida, pessoal de logística e marketing, entre outros. Cada membro da equipe desempenha 
+                                    um papel crucial na operação da equipe e contribui para o seu sucesso contínuo.
+    
+                                    <h2>A ART Grand Prix é conhecida por sua cultura de excelência e inovação</h2>, e está 
+                                    sempre em busca de profissionais talentosos e motivados para fazerem parte da 
+                                    equipe. Se você estiver interessado em se juntar à equipe ART Grand Prix como
+                                     piloto ou membro da equipe de apoio, fique atento às oportunidades disponíveis
+                                      nos canais oficiais da equipe, como seu site ou redes sociais. Fazer parte da 
+                                      ART Grand Prix é uma oportunidade emocionante para se envolver no mundo emocionante
+                                       e altamente competitivo do automobilismo.</p>
+                                       <button id="mostrarAviso" onclick="mostrarCaixaAviso()">Clique aqui</button>
+                                    <div id="caixaAviso" class="escondido">
+                                        <p>Este é um aviso importante!</p>
+                                       <div class="center-btt">
+                                      <button id="inscricao">Inscreva-se</button> 
+                                    </div>
+                                    </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <span class="note">Mais Requisitado!</span>
+                            <img src="https://cpb.org.br/wp-content/uploads/2023/06/329cfc49fd9a430faec0723817f4d6cd.jpg"
+                                alt="a Reuben sandwich on wax paper." />
+                           
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">GoalBall</h2>
+                            <div class="card_text">
+                                <p>A Prema Racing é uma equipe de corrida de renome sediada na Itália, 
+                                    com uma história rica e uma presença notável em várias categorias de 
+                                    alto nível, incluindo a Fórmula 2 e a Fórmula 3. Fundada em 1983 por
+                                     Angelo Rosin, a equipe tem sido fundamental no desenvolvimento e preparação
+                                      de jovens talentos do automobilismo para carreiras de sucesso no mundo das corridas.
+                                </p>
+                                <p>Ao longo dos anos, a Prema Racing se destacou em várias competições, incluindo a Eurocopa de 
+                                    Fórmula Renault, a GP2 Series (a precursora da Fórmula 2) e a Fórmula 3 Europeia. Seu 
+                                    compromisso com a excelência técnica, desempenho de alto nível e paixão pelo esporte a
+                                     motor a tornaram uma das equipes mais respeitadas no automobilismo.
+    
+                                    A <strong>equipe Prema Racing não se limita apenas a oferecer oportunidades de competição a 
+                                    jovens pilotos promissores, mas também mantém uma equipe de funcionários altamente 
+                                    qualificados e dedicados.</strong> Isso inclui engenheiros de pista, mecânicos, estrategistas
+                                     de corrida, pessoal de logística e muito mais. Cada membro da equipe desempenha um
+                                      papel vital no desenvolvimento e operação dos carros de corrida da equipe.
+                                </p>
+                                <hr />
+                                <p>Muitos pilotos notáveis, como <strong>>Charles Leclerc, Pierre Gasly e Esteban Ocon</strong>,
+                                     começaram suas carreiras na Prema Racing antes de alcançarem a Fórmula 1,
+                                      demonstrando a capacidade da equipe em identificar e nutrir talentos excepcionais.
+                                </p>
+                                <p>Se você é um jovem piloto em busca de uma oportunidade de progredir em sua 
+                                    carreira no automobilismo ou um profissional experiente em busca de um ambiente
+                                     de alto desempenho, a Prema Racing oferece oportunidades emocionantes. Para saber
+                                      mais sobre oportunidades de piloto ou emprego na equipe, você pode verificar
+                                       os canais oficiais da equipe, como seu site ou redes sociais, para obter
+                                        informações atualizadas sobre vagas e processos de seleção.
+                                
+                                    </p>
+                                    <div class="center-btt">
+                                    <button id="inscricao">Inscreva-se</button>
+                                </div>
+                                </div>
+                        </div>
+                    </div>
+                </li>
+    
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <span class="note">Mais Requisitado!</span>
+                            <img src="https://i.pinimg.com/564x/dc/ae/dc/dcaedcff7a8b8072bc6e552f5f42bc50.jpg"
+                                alt="A side view of a plate of figs and berries." />
+                          
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Basquete</h2>
+                            <div class="card_text">
+                                <p>A equipe Rodin Carlin, uma equipe de corrida dinâmica e em crescimento que compete na
+                                     Fórmula 2, está em busca de um Engenheiro de Performance altamente qualificado 
+                                     e motivado para se juntar à nossa equipe. Esta é uma oportunidade emocionante
+                                      para fazer parte de uma equipe de elite no mundo das corridas e contribuir para 
+                                      nosso contínuo sucesso. Se você é um engenheiro talentoso, apaixonado por automobilismo 
+                                      e determinado a alcançar o melhor desempenho, queremos conhecê-lo!
+                                </p>
+                                <hr />
+                                <p><h2>Requisitos:</h2>
+    
+                                    <br>- Bacharelado em Engenharia Mecânica ou equivalente.<br>
+                                    <br>- Experiência anterior em engenharia de automobilismo ou esporte a motor.<br>
+                                    <br>- Conhecimento profundo de telemetria e análise de dados de corrida.<br>
+                                    <br>- Habilidades excepcionais de comunicação e trabalho em equipe.<br>
+                                    <br>- Capacidade de trabalhar sob pressão e em ambientes de ritmo acelerado.<br>
+                                    <br>- Paixão pelo automobilismo e pelo desejo de alcançar o mais alto nível de desempenho.<br>
+                                   
+                                    <p>Se você acredita que possui as qualificações e a paixão necessárias para fazer parte da 
+                                    equipe Rodin Carlin, estamos ansiosos para receber sua inscrição.
+                                     Junte-se a nós e ajude a impulsionar o desempenho da equipe Rodin Carlin para o sucesso na pista!.</p>
+                                </p>
+                                <div class="center-btt">
+                                <button id="inscricao">Inscreva-se</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="https://images.educamaisbrasil.com.br/content/noticias/quais-sao-as-modalidades-das-paralimpiadas-de-toquio-2020_g.jpg"
+                                alt="a Reuben sandwich on wax paper." />
+                           
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Ultimate Reuben</h2>
+                            <div class="card_text">
+                                <p>All great meals take time, but this one takes it to the next level! More than 650 hours
+                                    of fermenting, brining, aging, and curing goes into each and every one of our legendary
+                                    Reuben sandwiches.
+                                </p>
+                                <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye
+                                    bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the
+                                    pickle. The only thing we didn't make on the premises is the toothpick ( but we're
+                                    looking into how to do that).
+                                </p>
+                                <hr />
+                                <p>This unforgettable sandwich has all of the classic Reuben elements: <strong>corned
+                                        beef</strong>, <strong>rye
+                                        bread</strong>, <strong>creamy Russian dressing</strong>,
+                                    <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
+                                    No substitions please!
+                                </p>
+                                <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2
+                                    more, or our
+                                    <strong>housemade pub chips</strong> for $1.
+                                </p>
+                                <div class="center-btt">
+                                <button id="inscricao">Inscreva-se</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="https://c.files.bbci.co.uk/10C59/production/_91179686_gettyimages-601339818.jpg"
+                                alt="a Reuben sandwich on wax paper." />
+                            
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Ultimate Reuben</h2>
+                            <div class="card_text">
+                                <p>All great meals take time, but this one takes it to the next level! More than 650 hours
+                                    of fermenting, brining, aging, and curing goes into each and every one of our legendary
+                                    Reuben sandwiches.
+                                </p>
+                                <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye
+                                    bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the
+                                    pickle. The only thing we didn't make on the premises is the toothpick ( but we're
+                                    looking into how to do that).
+                                </p>
+                                <hr />
+                                <p>This unforgettable sandwich has all of the classic Reuben elements: <strong>corned
+                                        beef</strong>, <strong>rye
+                                        bread</strong>, <strong>creamy Russian dressing</strong>,
+                                    <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
+                                    No substitions please!
+                                </p>
+                                <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2
+                                    more, or our
+                                    <strong>housemade pub chips</strong> for $1.
+                                </p>
+                                <div class="center-btt">
+                                <button id="inscricao">Inscreva-se</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Kenny_van_Weeghel_2006_World_Championship.jpg/1200px-Kenny_van_Weeghel_2006_World_Championship.jpg"
+                                alt="a Reuben sandwich on wax paper." />
+                            
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Ultimate Reuben</h2>
+                            <div class="card_text">
+                                <p>All great meals take time, but this one takes it to the next level! More than 650 hours
+                                    of fermenting, brining, aging, and curing goes into each and every one of our legendary
+                                    Reuben sandwiches.
+                                </p>
+                                <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye
+                                    bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the
+                                    pickle. The only thing we didn't make on the premises is the toothpick ( but we're
+                                    looking into how to do that).
+                                </p>
+                                <hr />
+                                <p>This unforgettable sandwich has all of the classic Reuben elements: <strong>corned
+                                        beef</strong>, <strong>rye
+                                        bread</strong>, <strong>creamy Russian dressing</strong>,
+                                    <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
+                                    No substitions please!
+                                </p>
+                                <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2
+                                    more, or our
+                                    <strong>housemade pub chips</strong> for $1.
+                                </p>
+                                <div class="center-btt">
+                                <button id="inscricao">Inscreva-se</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="https://2.bp.blogspot.com/-_l-H_YtMAZY/UYBOIFJWYLI/AAAAAAAAADo/LKn8YZX-aZo/s1600/82751911_10.jpg"
+                                alt="a Reuben sandwich on wax paper." />
+                           
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Ultimate Reuben</h2>
+                            <div class="card_text">
+                                <p>All great meals take time, but this one takes it to the next level! More than 650 hours
+                                    of fermenting, brining, aging, and curing goes into each and every one of our legendary
+                                    Reuben sandwiches.
+                                </p>
+                                <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye
+                                    bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the
+                                    pickle. The only thing we didn't make on the premises is the toothpick ( but we're
+                                    looking into how to do that).
+                                </p>
+                                <hr />
+                                <p>This unforgettable sandwich has all of the classic Reuben elements: <strong>corned
+                                        beef</strong>, <strong>rye
+                                        bread</strong>, <strong>creamy Russian dressing</strong>,
+                                    <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
+                                    No substitions please!
+                                </p>
+                                <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2
+                                    more, or our
+                                    <strong>housemade pub chips</strong> for $1.
+                                </p>
+                                <div class="center-btt">
+                                <button id="inscricao">Inscreva-se</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="https://classic.exame.com/wp-content/uploads/2021/08/51378858063_7e79247c98_o.jpg?quality=70&strip=info&w=1024"
+                                alt="a Reuben sandwich on wax paper." />
+                           
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Ultimate Reuben</h2>
+                            <div class="card_text">
+                                <p>All great meals take time, but this one takes it to the next level! More than 650 hours
+                                    of fermenting, brining, aging, and curing goes into each and every one of our legendary
+                                    Reuben sandwiches.
+                                </p>
+                                <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye
+                                    bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the
+                                    pickle. The only thing we didn't make on the premises is the toothpick ( but we're
+                                    looking into how to do that).
+                                </p>
+                                <hr />
+                                <p>This unforgettable sandwich has all of the classic Reuben elements: <strong>corned
+                                        beef</strong>, <strong>rye
+                                        bread</strong>, <strong>creamy Russian dressing</strong>,
+                                    <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
+                                    No substitions please!
+                                </p>
+                                <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2
+                                    more, or our
+                                    <strong>housemade pub chips</strong> for $1.
+                                </p>
+                                <div class="center-btt">
+                                <button id="inscricao">Inscreva-se</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="cards_item">
+                    <div class="card">
+                        <div class="card_image">
+                            <img src="https://blog.freedom.ind.br/wp-content/uploads/2022/06/Volei-sentado-Toquio-scaled.jpg"
+                                alt="a Reuben sandwich on wax paper." />
+                           
+                        </div>
+                        <div class="card_content">
+                            <h2 class="card_title">Ultimate Reuben</h2>
+                            <div class="card_text">
+                                <p>All great meals take time, but this one takes it to the next level! More than 650 hours
+                                    of fermenting, brining, aging, and curing goes into each and every one of our legendary
+                                    Reuben sandwiches.
+                                </p>
+                                <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye
+                                    bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the
+                                    pickle. The only thing we didn't make on the premises is the toothpick ( but we're
+                                    looking into how to do that).
+                                </p>
+                                <hr />
+                                <p>This unforgettable sandwich has all of the classic Reuben elements: <strong>corned
+                                        beef</strong>, <strong>rye
+                                        bread</strong>, <strong>creamy Russian dressing</strong>,
+                                    <strong>sauerkraut</strong>, plus a <strong>sweet gherkin pickle</strong>.
+                                    No substitions please!
+                                </p>
+                                <p>Add a side of <strong>french fries</strong> or <strong>sweet potato fries</strong> for $2
+                                    more, or our
+                                    <strong>housemade pub chips</strong> for $1.
+                                </p>
+                                <div class="center-btt">
+                                <button id="inscricao">Inscreva-se</button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>

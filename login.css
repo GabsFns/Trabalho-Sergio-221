@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Regular.ttf);
+}
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+}
+.navegacao-menu{
+    display: flex;
+    margin: 10px;
+    font-size: 22px;
+    font-family: Poppins;
+    align-items: center;
+    
+}
+.navegacao-menu p, button{
+    margin: 19px;
+}
+.navegacao-menu button{
+    padding: 14px;
+    width: 190px;
+    border: none;
+    color: white;
+    background-color: rgb(102, 48, 48);
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 440px;
+    text-align: center;
+    margin: auto;
+    
+    padding: 20px;
+    margin-top: 80px;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+}
+form p{
+    font-family: Poppins;
+    font-size: 14px;
+}
+form h1{
+    font-family: Roboto;
+    margin: 0;
+    font-size: 28px;
+}
+form a{
+    text-align: end;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.input-center{
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-center input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    margin: 15px;
+}
+#checkbox-style{
+    display: flex;
+    align-items: baseline;
+    font-size: 12px;
+    margin: 0px;
+    font-family: Poppins;
+}
+#botao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+input[type=submit]{
+    border: none;
+    padding: 15px;
+    
+    color: white;
+    background-color: black;
+    font-family: Poppins;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in, border 0.2s ease-in;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(0, 0, 0);
+}
+#cad-btt{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in, border 0.2s ease-in;
+}
+#cad-btt:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: black;
+}

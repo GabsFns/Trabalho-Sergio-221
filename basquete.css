@@ -1,0 +1,65 @@
+body{
+    
+    font-family: Poppins
+    ;
+    margin: 0;
+    background-image: url(img/O-basquetebol-em-cadeira-de-rodas-é-praticado-competitivamente-por-cerca-de-25.000-pessoas-em-80-países.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+}
+
+#caixa-1, #caixa-2, #caixa-3{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgba(43, 13, 13, 0.863);
+    box-shadow: rgba(0, 0, 0, 0.301) 0px 2px 18px 0px;
+    color: white;
+    font-family: Poppins;
+    width: 250px;
+    text-align: justify;
+    padding: 30px;
+    
+}
+article{
+    display: flex;
+    justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.text-inform{
+    margin-top: 60px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Poppins;
+    padding: 30px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+section{
+    background-color: white;
+    height: 660px;
+
+}
+nav{
+    margin: auto;
+    width: 420px;
+    
+    
+    
+    background-color: white;
+    
+}
+button{
+    padding: 20px;
+    width: 420px;
+    height: 80px;
+    
+    font-size: 22px;
+    border: none;
+    font-family: Poppins;
+    color: white;
+    background-color: rgb(43, 15, 15);
+}

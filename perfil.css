@@ -1,0 +1,72 @@
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+}
+body{
+    margin: 0;
+    box-sizing: border-box;   
+    font-family: Poppins;
+}
+.caixa-perfil{
+    display: flex;
+    padding: 30px;
+    justify-content: left;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    
+}
+#inform-caixa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    
+    
+}
+#center-img img{
+    margin: 6px;
+}
+p{
+    margin: 5px;
+}
+
+.inform-caixa2{
+    display: flex;
+   padding: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+    
+}
+.inform-caixa2 h1{
+    letter-spacing: 8px;
+}
+#about-contact{
+    width: 400px;
+}
+#and, #ace, #rec{
+    border-radius: 20px;
+    padding: 8px;
+}
+#and{
+    background-color: yellow;
+    
+}
+
+#ace{
+    background-color: rgb(46, 151, 46);
+}
+#rec{
+    background-color: rgb(238, 54, 54);
+}
+button{
+    background-color: rgba(41, 14, 14, 0.452);
+    border: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    width: 130px;
+    font-family: Poppins;
+}
