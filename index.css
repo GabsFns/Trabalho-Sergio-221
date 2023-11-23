@@ -14,6 +14,7 @@ header{
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
 }
+
 .navegacao-menu{
     display: flex;
     margin: 10px;
@@ -143,4 +144,11 @@ article{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+  footer{
+    margin-top: 80px;
+    font-family: Poppins;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+  }
