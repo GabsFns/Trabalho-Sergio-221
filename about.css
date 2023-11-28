@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    background-image: url(img/olympic-games-sports-background-with-copy-space-text_916191-81881.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(15px);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Regular.ttf);
+}
+.title{
+   width: 600px;
+    text-align: center;
+    margin: auto;
+    font-family: Roboto;
+    background-color: rgba(255, 255, 255, 0.856);
+    padding: 10px;
+    border-radius: 90px;
+}
+aside{
+ font-family: Poppins;
+ text-align: justify;
+ background-color: white;
+ padding: 20px;
+ margin: 30px 0px;
+}
+.caixa-1, .caixa-2{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+footer{
+    margin-top: 80px;
+    font-family: Poppins;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+    display: flex;
+    background-color: white;
+    align-items: baseline;
+    justify-content: space-around;
+  }
+h2{
+    font-family: Roboto;
+}
+p{
+    font-family: Poppins;
+}
+#sob-nos, #opt, #pcc, #trt{
+    width: 900px;
+    text-align: justify;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.74);
+    
+}
+.caixa-3{
+    text-align: center;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+
+  .dropbtn {
+    background-color: #ffffff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .navegacao-menu p{
+    transition: all 0.3s ease-in;
+    font-weight: 700;
+}
+.navegacao-menu p:hover{
+  color: rgb(104, 84, 84);
+    font-weight: 700
+}
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-bottom: 90px;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+}
+
+
+.navegacao-menu{
+    display: flex;
+    margin: 10px;
+    font-size: 22px;
+    font-family: Poppins;
+    align-items: center;
+    
+}
+.navegacao-menu p, button{
+    margin: 19px;
+}
+.navegacao-menu button{
+    padding: 14px;
+    width: 190px;
+    border: none;
+    color: white;
+    background-color: rgb(102, 48, 48);
+    border-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}

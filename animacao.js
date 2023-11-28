@@ -28,17 +28,15 @@ document.getElementById('btnToggle').addEventListener('click', function() {
     toggleMenu();
 });
 
-function toggleMenu() {
-    var menu = document.getElementById('menu');
-    if (menu.style.width === '250px') {
-        menu.style.width = '0';
-    } else {
-        menu.style.width = '250px';
-    }
-}
+
 function mostrarCaixaAviso() {
     var caixaAviso = document.getElementById("caixaAviso");
     caixaAviso.style.display = "block";
+
+    // Ativa a transição definindo a opacidade para 1 (visível)
+    setTimeout(function() {
+        caixaAviso.style.opacity = "1";
+    }, 100);
 
     // Oculta a caixa de aviso após 3 segundos (3000 milissegundos)
     setTimeout(function() {
@@ -48,5 +46,22 @@ function mostrarCaixaAviso() {
 
 function fecharCaixaAviso() {
     var caixaAviso = document.getElementById("caixaAviso");
-    caixaAviso.style.display = "none";
+    
+    // Desativa a transição definindo a opacidade para 0 (invisível)
+    caixaAviso.style.opacity = "0";
+
+    // Oculta a caixa de aviso após o término da transição (após 0.5 segundos)
+    setTimeout(function() {
+        caixaAviso.style.display = "none";
+    }, 500);
 }
+function formatarCPF(input) {
+    // Remove caracteres não numéricos
+    var cpf = input.value.replace(/\D/g, '');
+
+    // Adiciona a máscara
+    cpf = cpf.replace(/(\d{3})(\d{3})(\d{3})(\d{2})/, '$1.$2.$3-$4');
+
+    // Atualiza o valor no input
+    input.value = cpf;
+  }

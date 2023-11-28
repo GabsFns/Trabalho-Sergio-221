@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cadastro | Inclusion</title>
     <link rel="stylesheet" href="cadastro.css">
-</head>
+    <script src="animacao.js"></script>
 <body>
     <header>
         <img src="img/logo-tipo-inclusion.png" alt="" width="400px">
         <nav class="navegacao-menu">
-        <p>Home</p>
-        <p>Teams</p>
-        <p>About</p>
-        <button>Bem vindo, Entre ou se Cadastre</button>
+            <a href="index.html"><p>Home</p></a>
+            <a href="vagas.html"><p>Teams</p></a>
+            <a href="about.html"><p>About</p></a>
+        <div class="dropdown">
+        <button class="dropbtn">Bem vindo, Entre ou se Cadastre</button>
+        <div class="dropdown-content">
+            <a href="login.html">Entrar</a>
+            <a href="cadastro.html">Cadastrar</a>
+            
+        </div>
+          </div>
     </nav>
     </header>
     <main>
@@ -21,16 +28,18 @@
             <form action="">
                 <h1>Vamos criar o seu acesso?</h1>
             <div class="input-center">
-                <input type="text" placeholder="Digite seu CPF">
-                <input type="text" placeholder="Seu email">
-                <input type="text" placeholder="senha">
-                <input type="text" placeholder="Seu logadouro">
-                <input type="text" placeholder="Pais de Origem">
+                <input type="text" id="cpf" oninput="formatarCPF(this)" maxlength="14" placeholder="Digite seu CPF">
+                <input type="text" placeholder="Seu email" required>
+                <input type="password" placeholder="senha"  required>
+                <input type="date"  required>
+                <input type="number" placeholder="Insira seu Telefone" required>
+                <input type="text" placeholder="Seu logadouro"  required>
+                <input type="text" placeholder="Pais de Origem"  required>
                 
                 <div id="checkbox-style">
                     <input type="checkbox" name="" id="">
                     <p>Desejo receber ofertas e conteúdos por e-mail ou SMS.</p>
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="" required>
                     <p>Aceito os Termos e condiçõe se autorizo o uso de meus dados de acordo com a Declaração de privacidade.</p>
                 </div>
                     

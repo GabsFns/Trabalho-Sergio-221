@@ -23,6 +23,10 @@ header{
     align-items: center;
     
 }
+a{
+  text-decoration: none;
+  color: black;
+}
 #caixaAviso {
   display: none;
   position: fixed;
@@ -162,10 +166,11 @@ a{
   }
   .cards_item:hover {
     transform: scale(1.05);
+    
   }
   
   .card_image {
-    position: fixed;
+    
     max-height: 250px;
   }
   
@@ -175,11 +180,22 @@ a{
     object-fit: cover;
   }
   
-  
+  a{
+    color: black;
+    text-decoration: none;
+}
   .card_price span {
     font-size: 12px;
     margin-top: -2px;
     color: white;
+  }
+  footer{
+    margin-top: 80px;
+    font-family: Poppins;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
   }
   
   .note {
@@ -193,6 +209,14 @@ a{
     font-weight: 700;
     color: white;
   }
+  .navegacao-menu p{
+    transition: all 0.3s ease-in;
+    font-weight: 700;
+}
+.navegacao-menu p:hover{
+  color: rgb(104, 84, 84);
+    font-weight: 700
+}
   
   @media (min-width: 40rem) {
     .cards_item {
@@ -272,4 +296,36 @@ a{
   
   .card_text p:last-child {
     margin: 0;
+  }
+  @media screen and (max-width: 750px){
+    header img{
+        display: none;
+        flex-wrap: wrap;
+    }
+    header{
+        top: 0;
+        
+        width: 100%;
+        display: flex;
+        
+       
+       
+    }
+    .barra-nav{
+        display: flex;
+        justify-content: space-between;
+   
+        
+    }
+    .navegacao-menu{
+        font-size: 18px;
+        text-align: center;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .navegacao-menu button{
+       
+    }
   }

@@ -13,6 +13,10 @@ header{
     display: flex;
     justify-content: space-between;
     box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+    
+}
+.barra-nav{
+    display: flex;
 }
 
 .navegacao-menu{
@@ -59,6 +63,14 @@ article{
     font-family: Roboto;
     width: 300px;
     transition: all 0.6s ease-in-out;
+}
+.navegacao-menu p{
+    transition: all 0.3s ease-in;
+    font-weight: 700;
+}
+.navegacao-menu p:hover{
+    color: rgb(104, 84, 84);
+    font-weight: 700
 }
 .caixa-1:hover{
     transform: translateX(50px);
@@ -151,4 +163,78 @@ article{
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+  }
+  @media screen and (max-width: 750px){
+    header img{
+        display: none;
+        flex-wrap: wrap;
+    }
+    header{
+        top: 0;
+        
+        width: 100%;
+        display: flex;
+        
+       
+       
+    }
+    .barra-nav{
+        display: flex;
+        justify-content: space-between;
+   
+        
+    }
+    .navegacao-menu{
+        font-size: 18px;
+        text-align: center;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .navegacao-menu button{
+       
+    }
+    article{
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    
+        flex-direction: column;
+        margin: 0px;
+    }
+    #img-principal{
+       display: none;
+    }
+    hr{
+        display: none;
+    }
+   section h1{
+    font-size: 19px;
+    width: 300px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+   }
+    .center-caixa{
+        
+        margin: auto;
+        margin-left: 40px;
+        align-items: center;
+        width: 400px;
+    }
+    
+   
+    figure{
+        margin: 0;
+        width: 100px;
+    }
+    footer{
+        height: 100%;
+    }
+    main{
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+    }
   }

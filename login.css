@@ -22,6 +22,58 @@ header{
     align-items: center;
     
 }
+a{
+    color: black;
+    text-decoration: none;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 190px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+footer{
+    margin-top: 80px;
+    font-family: Poppins;
+    box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+  }
 .navegacao-menu p, button{
     margin: 19px;
 }
@@ -61,6 +113,14 @@ form a{
     text-align: end;
     margin-right: 20px;
     font-size: 12px;
+}
+.navegacao-menu p{
+    transition: all 0.3s ease-in;
+    font-weight: 700;
+}
+.navegacao-menu p:hover{
+    color: rgb(104, 84, 84);
+    font-weight: 700
 }
 .input-center{
     display: flex;
@@ -102,6 +162,8 @@ input[type=submit]:hover{
 }
 #cad-btt{
     background-color: white;
+    width: 300px;
+    margin-right: 28px;
     color: black;
     border: 1px solid black;
     transition: color 0.2s ease-in, background-color 0.2s ease-in, border 0.2s ease-in;
@@ -114,4 +176,36 @@ input[type=submit]:hover{
 a{
     text-decoration: none;
     color: black;
+}
+@media screen and (max-width: 750px){
+    header img{
+        display: none;
+        flex-wrap: wrap;
+    }
+    header{
+        top: 0;
+        
+        width: 100%;
+        display: flex;
+        
+       
+       
+    }
+    .barra-nav{
+        display: flex;
+        justify-content: space-between;
+   
+        
+    }
+    .navegacao-menu{
+        font-size: 18px;
+        text-align: center;
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .navegacao-menu button{
+       
+    }
 }

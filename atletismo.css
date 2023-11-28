@@ -9,6 +9,13 @@ body{
     font-family: Poppins;
     src: url(font/Poppins-Regular.ttf);
 }
+h1{
+    background-color: white;
+    width: 200px;
+    border-radius: 40px 90px 40px 90px;
+    margin: 20px;
+    text-align: center;
+}
 
 #caixa-1, #caixa-2, #caixa-3{
     border: 1px solid rgb(255, 255, 255);
@@ -44,6 +51,7 @@ footer{
     font-family: Poppins;
     box-shadow: rgba(0, 0, 0, 0.094) 0px 2px 18px 0px;
     display: flex;
+    background-color: white;
     align-items: baseline;
     justify-content: space-around;
   }
