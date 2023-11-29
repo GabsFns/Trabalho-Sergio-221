@@ -115,14 +115,15 @@ p{
 #and, #ace, #rec{
     border-radius: 20px;
     padding: 8px;
+    margin: 2px 20px;
+    
+    
 }
 #and{
     background-color: yellow;
     
 }
-a h1{
-    margin: 30px;
-}
+
 
 #ace{
     background-color: rgb(46, 151, 46);
@@ -130,6 +131,49 @@ a h1{
 #rec{
     background-color: rgb(238, 54, 54);
 }
+a h1{
+    margin: 30px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+    
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover #and {
+    background-color: #dddb4e;
+  }
+
+.dropdown:hover #ace {
+    background-color: #77dd4e;
+  }
+
+.dropdown:hover #rec {
+    background-color: #dd4e4e;
+  } 
+
+
+
 button{
     background-color: rgba(41, 14, 14, 0.452);
     border: none;

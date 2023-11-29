@@ -99,8 +99,16 @@ form input[type=text]{
 }
 form input[type=email]{
     border: none;
+    width: 300px;
     outline: none;
     border-bottom: 1px solid black;
+}
+form input[type=password]{
+    border: none;
+    outline: none;
+    width: 300px;
+    border-bottom: 1px solid black;
+    margin: 20px 0px;
 }
 form label{
     text-align: center;
@@ -189,7 +197,16 @@ border-radius: 30px;
         justify-content: space-between;
         
     }
-    .navegacao-menu button{
-       
+    .centralizacao{
+        flex-direction: column;
+        align-items: center;
+    }
+    form{
+        width: 80%;
+    }
+    form button{
+        align-items: center;
+        justify-content: center;
+        margin-left: 170px;
     }
 }

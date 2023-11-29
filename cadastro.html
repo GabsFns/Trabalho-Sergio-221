@@ -28,16 +28,17 @@
             <form action="">
                 <h1>Vamos criar o seu acesso?</h1>
             <div class="input-center">
-                <input type="text" id="cpf" oninput="formatarCPF(this)" maxlength="14" placeholder="Digite seu CPF">
+                <input type="text" id="cpf" oninput="formatarCPF(this)" maxlength="14" placeholder="Digite seu CPF" required>
                 <input type="text" placeholder="Seu email" required>
                 <input type="password" placeholder="senha"  required>
-                <input type="date"  required>
-                <input type="number" placeholder="Insira seu Telefone" required>
+                <input type="date" id="data-formatada" oninput="formatarDataInput(this)" maxlength="10" required>
+                <input type="text" id="telefone" placeholder="Insira seu Telefone" maxlength="11" oninput="formatarTelefone(this)" required>
                 <input type="text" placeholder="Seu logadouro"  required>
                 <input type="text" placeholder="Pais de Origem"  required>
                 
+                
                 <div id="checkbox-style">
-                    <input type="checkbox" name="" id="">
+                    <input type="checkbox" name="" id="" required>
                     <p>Desejo receber ofertas e conteúdos por e-mail ou SMS.</p>
                     <input type="checkbox" name="" id="" required>
                     <p>Aceito os Termos e condiçõe se autorizo o uso de meus dados de acordo com a Declaração de privacidade.</p>

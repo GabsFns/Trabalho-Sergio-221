@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    background-image: url(img/olympic-games-sports-background-with-copy-space-text_916191-81881.avif);
+    background-image: url(img/Wavy-Beige-and-Brown-Aesthetic-Background-Wallpapers-650x364.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(3px);
 }
 @font-face {
     font-family: Poppins;
@@ -145,4 +145,33 @@ a{
     border-radius: 30px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+}
+@media screen and (max-width: 750px){
+  header img{
+      display: none;
+      flex-wrap: wrap;
+  }
+  header{
+      top: 0;
+      
+      width: 100%;
+      display: flex;
+      
+     
+     
+  }
+  .barra-nav{
+      display: flex;
+      justify-content: space-between;
+ 
+      
+  }
+  .navegacao-menu{
+      font-size: 18px;
+      text-align: center;
+      width: 100px;
+      display: flex;
+      justify-content: space-between;
+      
+  }
 }

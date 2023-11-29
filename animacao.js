@@ -55,6 +55,7 @@ function fecharCaixaAviso() {
         caixaAviso.style.display = "none";
     }, 500);
 }
+
 function formatarCPF(input) {
     // Remove caracteres não numéricos
     var cpf = input.value.replace(/\D/g, '');
@@ -65,3 +66,19 @@ function formatarCPF(input) {
     // Atualiza o valor no input
     input.value = cpf;
   }
+
+  function formatarTelefone(input) {
+    // Remove todos os caracteres não numéricos do valor
+    var numeros = input.value.replace(/\D/g, '');
+
+    // Aplica a máscara (##) #####-####
+    input.value = numeros.replace(/^(\d{2})(\d{5})(\d{4})$/, '($1) $2-$3');
+}
+
+function formatarDataInput(input) {
+    // Remove todos os caracteres não numéricos do valor
+    var numeros = input.value.replace(/\D/g, '');
+
+    // Aplica a máscara ##/##/####
+    input.value = numeros.replace(/^(\d{2})(\d{2})(\d{4})$/, '$1/$2/$3');
+}
